@@ -1,7 +1,6 @@
 html {
-    background: rgba(174,225,245,255);
+    background: rgb(174,225,245);
 }
-
 
 .main-header {
 
@@ -56,7 +55,7 @@ html {
 
     margin: auto;
     width: 550px;
-    height: 400px;
+    height: 250px;
 
     background-color: rgba(174,225,245,255);
     
@@ -68,5 +67,16 @@ html {
     color: rgb(32,167,244);
 
 }
+
+.make-a-match {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+
+}
+
+
 
 
