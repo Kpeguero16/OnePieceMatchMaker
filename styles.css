@@ -1,5 +1,6 @@
 html {
-    background: rgb(174,225,245);
+    background-color: rgb(174,225,245);
+    background-image: url(Images/OnePieceMatchMaker\ background.png);
 }
 
 .main-header {
