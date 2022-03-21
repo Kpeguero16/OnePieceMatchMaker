@@ -1,91 +1,85 @@
 html {
-    background-color: rgb(174,225,245);
-    background-image: url(Images/OnePieceMatchMaker\ background.png);
-}
-
-
-
-.main-header {
-    
-    margin: 0 auto;
-    padding: 50px; 
-
-    height: 50px;
-    width: 550px;
-
-
-
-    background-image: url("Images/Strawhats.jpeg");
-    background-size: cover ;
-    background-position: center;
-
-    
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
-
-}
-
-.banner {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.header {
-    
-    margin-left: 100px;
-    margin-right: 100px;
-
-    background-color: rgba(45, 45, 45, 0.3);
-
-    color: white;
-    text-align: center;
-    
-}
-
-.characters-title {
-
-    margin: 30px auto;
-    margin-bottom: -5px;
-    width: 550px;
-    height: 25px;
-    
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-
-    background-color: rgb(32,167,244);
- 
-    color: white;
-    text-align: center;
-
-}
-
-.characters-list {
-
-    margin: auto;
-    width: 550px;
-    height: 250px;
-
-    background-color: rgba(174,225,245,255);
-    
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-
-    font-size: 20px;
-    color: rgb(32,167,244);
-
-}
-
-.make-a-match {
-
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
+    background-color: rgb(174,225,245);
+    background-image: url(Images/OnePieceMatchMaker\ background.png);
+    background-size: cover;
+
+}
+
+.header {
+
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    
+    background-image: url(Images/One\ Piece\ Match\ Maker\ -\ banner.png);
+    background-size: cover ;
+    background-position: center;
+
+    width: 700px;
+    height: 150px;
+
+    margin-top: 25px;
 
 }
 
 
+@media screen and (max-width: 1525px){
+    .header {
+        width: 700px;
+        height: 150px;
+    }
+}
 
+@media screen and (max-width: 1250px){
+    .header {
+        width: 550px;
+        height: 120px;
+    }
+}
 
+@media screen and (max-width: 1050px){
+    .header {
+        width: 500px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header {
+        width: 450px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        width: 400px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        width: 350px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        width: 300px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header {
+        width: 250px;
+        height: 60px;
+    }
+}
