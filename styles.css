@@ -1,14 +1,37 @@
 html {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 
     background-color: rgb(174,225,245);
     background-image: url(Images/OnePieceMatchMaker\ background.png);
     background-size: cover;
 
 }
+
+u {
+    text-decoration-color: white;
+}
+
+h1 {
+    
+    background-color: rgb(32,167,244);
+
+    color: white;
+
+    font-size: 20px;
+
+    margin-top: -5px;
+    margin-left: -2px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+}
+
 
 .header {
 
@@ -26,6 +49,49 @@ html {
     margin-top: 25px;
 
 }
+
+.characters {
+
+    width: 550px;
+    height: 250px;
+
+    margin-top: 25px;
+    margin-left: 80px;
+
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+    text-align: center;
+    color: rgb(93, 93, 93);
+
+    overflow:hidden; overflow-y:scroll;
+}
+
+
+
+.listOfCharacters {
+    text-align: left;
+    font-size: 18px;
+}
+
+#listOfCharacters {
+    margin-left: 10px;
+    color: rgb(32,167,244);
+    
+}
+
+.make-a-match {
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+
+
+
+}
+
 
 
 @media screen and (max-width: 1525px){
