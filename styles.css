@@ -32,6 +32,14 @@ h1 {
 
 }
 
+img {
+    height: 100px;
+    width: auto;
+
+    padding-top: 40%;
+    padding-left: 20%;
+}
+
 
 .header {
 
@@ -85,11 +93,86 @@ h1 {
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     margin-top: 10px;
 
+}
+
+.first {
+
+    height: 250px;
+    width: 250px;
+
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+    background-image: url(Images/nico\ robin.webp);
+    background-size: cover;
+}
+
+.white-space {
+    height:200px;
+    width: 200px;
 
 
+}
+
+.second {
+
+
+
+    height: 250px;
+    width: 250px;
+
+    
+    
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+    background-image: url(Images/franky.jpeg);
+    background-size: cover;
+
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 20px;
+
+    color: white;
+
+    text-align: center;
+    
+}
+
+#first {
+    width: 150px;
+    height:fit-content;
+
+    background-color: grey;
+
+    margin-right: 7.5%;
+}
+
+
+#second {
+    width: 150px;
+    height:fit-content;
+
+    background-color: grey;
+
+    margin-left: 7.5%;
+}
+
+.border {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
 }
 
 
