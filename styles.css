@@ -32,6 +32,7 @@ h1 {
 
 }
 
+
 img {
     height: 100px;
     width: auto;
@@ -101,6 +102,8 @@ img {
 
 .first {
 
+
+
     height: 250px;
     width: 250px;
 
@@ -109,7 +112,8 @@ img {
     border-style: solid;
 
     background-image: url(Images/nico\ robin.webp);
-    background-size: cover;
+    background-size: cover ;
+    background-position: center;
 }
 
 .white-space {
@@ -134,6 +138,7 @@ img {
 
     background-image: url(Images/franky.jpeg);
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -150,7 +155,9 @@ img {
     
 }
 
-#first {
+#first-name {
+
+
     width: 150px;
     height:fit-content;
 
@@ -160,7 +167,8 @@ img {
 }
 
 
-#second {
+#second-name {
+
     width: 150px;
     height:fit-content;
 
