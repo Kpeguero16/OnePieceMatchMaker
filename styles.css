@@ -22,13 +22,16 @@ h1 {
 
     margin-top: -5px;
     margin-left: -2px;
+    margin-right: -2px;
 
     padding-top: 3px;
     padding-bottom: 3px;
 
     border-width: 2px;
-    border-color: white;
+    border-color: rgb(124, 47, 0);
     border-style: solid;
+
+    
 
 }
 
@@ -45,7 +48,7 @@ img {
 .header {
 
     border-width: 2px;
-    border-color: white;
+    border-color: rgb(124, 47, 0);
     border-style: solid;
     
     background-image: url(Images/One\ Piece\ Match\ Maker\ -\ banner.png);
@@ -68,13 +71,14 @@ img {
     margin-left: 80px;
 
     border-width: 2px;
-    border-color: white;
+    border-color: rgb(124, 47, 0);
     border-style: solid;
 
     text-align: center;
     color: rgb(93, 93, 93);
 
     overflow:hidden; overflow-y:scroll;
+
 }
 
 
@@ -108,7 +112,7 @@ img {
     width: 250px;
 
     border-width: 2px;
-    border-color: white;
+    border-color: rgb(124, 47, 0);
     border-style: solid;
 
     background-image: url(Images/nico\ robin.webp);
@@ -133,7 +137,7 @@ img {
     
     
     border-width: 2px;
-    border-color: white;
+    border-color: rgb(124, 47, 0);
     border-style: solid;
 
     background-image: url(Images/franky.jpeg);
@@ -161,7 +165,7 @@ img {
     width: 150px;
     height:fit-content;
 
-    background-color: grey;
+    background-color: rgb(124, 47, 0);
 
     margin-right: 7.5%;
 }
@@ -172,7 +176,7 @@ img {
     width: 150px;
     height:fit-content;
 
-    background-color: grey;
+    background-color: rgb(124, 47, 0);
 
     margin-left: 7.5%;
 }
