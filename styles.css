@@ -8,47 +8,14 @@ html {
 
 }
 
-u {
-    text-decoration-color: white;
-}
-
-h1 {
-    
-    background-color: rgb(32,167,244);
-
-    color: white;
-
-    font-size: 20px;
-
-    margin-top: -5px;
-    margin-left: -2px;
-    margin-right: -2px;
-
-    padding-top: 3px;
-    padding-bottom: 3px;
-
-    border-width: 2px;
-    border-color: rgb(124, 47, 0);
-    border-style: solid;
-
-    
-
-}
 
 
-img {
-    height: 100px;
-    width: auto;
-
-    padding-top: 40%;
-    padding-left: 20%;
-}
 
 
 .header {
 
     border-width: 2px;
-    border-color: rgb(124, 47, 0);
+    border-color: white;
     border-style: solid;
     
     background-image: url(Images/One\ Piece\ Match\ Maker\ -\ banner.png);
@@ -71,13 +38,36 @@ img {
     margin-left: 80px;
 
     border-width: 2px;
-    border-color: rgb(124, 47, 0);
+    border-color: white;
     border-style: solid;
 
     text-align: center;
     color: rgb(93, 93, 93);
 
     overflow:hidden; overflow-y:scroll;
+
+}
+
+.charactersTitle {
+    
+    background-color: rgb(32,167,244);
+
+    color: white;
+
+    font-size: 20px;
+
+    margin-top: -5px;
+    margin-left: -2px;
+    margin-right: -2px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+    
 
 }
 
@@ -112,7 +102,7 @@ img {
     width: 250px;
 
     border-width: 2px;
-    border-color: rgb(124, 47, 0);
+    border-color: white;
     border-style: solid;
 
     background-image: url(Images/nico\ robin.webp);
@@ -124,7 +114,14 @@ img {
     height:200px;
     width: 200px;
 
+}
 
+.heart {
+    height: 100px;
+    width: auto;
+
+    padding-top: 40%;
+    padding-left: 20%;
 }
 
 .second {
@@ -137,7 +134,7 @@ img {
     
     
     border-width: 2px;
-    border-color: rgb(124, 47, 0);
+    border-color: white;
     border-style: solid;
 
     background-image: url(Images/franky.jpeg);
