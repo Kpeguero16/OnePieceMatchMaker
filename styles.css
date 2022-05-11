@@ -6,8 +6,14 @@ html {
     background-image: url(Images/OnePieceMatchMaker\ background.png);
     background-size: cover;
 
+    font-family: 'Koulen', serif;
 }
 
+button {
+    font-family: inherit;
+
+    font-size: 14px;
+}
 .header {
 
     border-width: 2px;
@@ -50,7 +56,7 @@ html {
 
     color: white;
 
-    font-size: 20px;
+    font-size: 18px;
 
     margin-top: -5px;
     margin-left: -2px;
@@ -63,7 +69,6 @@ html {
     border-color: white;
     border-style: solid;
 
-    
 
 }
 
